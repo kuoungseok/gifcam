@@ -2,6 +2,10 @@
 
 <p align="center">
   <b>Screen capture for Windows — Screenshot · GIF · MP4 · Pro video editor</b>
+  <img width="887" height="1058" alt="image" src="https://github.com/user-attachments/assets/94571d45-10a1-43e6-8c39-e5d717ad05a1" />
+
+<img width="2045" height="1407" alt="image" src="https://github.com/user-attachments/assets/cb6377df-8cc7-4070-9e5b-355c05ff0e64" />
+
 </p>
 
 <p align="center">
