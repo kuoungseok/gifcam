@@ -1,11 +1,11 @@
 # GifCam
 
 <p align="center">
-  <b>The free Windows screen recorder where you can speed up the boring parts and slow down the important ones — in the same clip.</b>
+  <b>Free Windows screen recorder — speed up the boring parts, slow down the important ones, and draw live on your video. All in the same clip.</b>
 </p>
 
 <p align="center">
-  <i>Screenshot · GIF · MP4 · Pro video editor — all free, no watermark, no signup.</i>
+  <i>Screenshot · GIF · MP4 · Pro video editor — no watermark, no trial, no signup.</i>
 </p>
 
 <p align="center">
@@ -64,21 +64,29 @@ pill) or off (outline + drop shadow). Burned into the exported MP4.
 
 ## What makes GifCam different
 
-### ⚡ Fast-motion and slow-motion in the **same** video
+### ⚡ Per-segment speed control in the **same** video
 Select any range on the track and dial it from **0.25× up to 16× speed**.
-Keep the rest at normal 1× — or layer multiple speed segments on top of
-each other. A tutorial can zip through setup at 4× then settle into 1× for
-the key steps, all in one clip.
+Keep the rest at normal 1× — or stack multiple speed segments back to
+back. A tutorial can zip through setup at 4× then settle into 1× for the
+key steps, all in one clip. **ScreenToGif and ShareX don't do this.
+Snagit charges $63.**
+
+### 🖌 Draw live on your video  *(rare — almost no free tool does this)*
+Click the preview in the Pro editor and a paint dialog opens over the
+current frame. Pen, eraser, 8-color palette + custom picker, width and
+opacity. Strokes stay visible during playback — perfect for arrows,
+callouts, and highlighting bug repros without a separate annotation app.
+
+### 🪟 Drag-to-capture in under 2 seconds
+Open GifCam, pick Screenshot / GIF / Video, hit **New capture**, drag a
+region. That's it. No modal wizards, no codec picker, no pre-roll
+countdown unless you turn it on. The UI matches Win11's Snipping Tool so
+there's nothing new to learn.
 
 ### 🎞 Layered multi-track playback
 Stack multiple clips. The top track plays by default; cut regions fall
 through to the track beneath, and short tracks reveal the one under them
 once they end. No timeline gaps.
-
-### 🖌 Paint directly on the preview
-Click the preview in the Pro editor to open a paint-style annotation
-window. Pen, eraser, 8 preset colors + custom picker, width & opacity.
-Strokes stay visible during playback — great for callouts and arrows.
 
 ### ⚙ Windows Graphics Capture backend
 GPU-accelerated capture via the modern WGC API — 60 fps on large regions
