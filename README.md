@@ -50,7 +50,8 @@ export. Drawings on the preview render live while you play (see below).
 Click the preview area in the Pro editor and a paint-style dialog opens
 over the current frame. Pen, eraser, clear-all, **8-color palette + custom
 picker**, width and opacity sliders. Strokes render on the preview while
-you play back. Right-click the preview for a quick **Clear all**.
+you play back **and are burned into the exported MP4** at the exact time
+they were drawn. Right-click the preview for a quick **Clear all**.
 
 ### Subtitles
 <p align="center">
@@ -121,7 +122,7 @@ Slack, Notion, KakaoTalk, Discord...), and sends `Ctrl+V` for you.
 
 ## Install
 
-1. Download **`GifCam-Setup-1.2.0.exe`** from the
+1. Download **`GifCam-Setup-1.2.1.exe`** from the
    [**Releases** page](https://github.com/kuoungseok/gifcam/releases/latest)
 2. Double-click and follow the wizard — no admin rights required
 3. Installed to `%LOCALAPPDATA%\GifCam`, listed in *Settings → Apps*
