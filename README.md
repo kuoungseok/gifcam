@@ -1,8 +1,16 @@
 # GifCam
 
 <p align="center">
-  <b>Screen capture for Windows — Screenshot · GIF · MP4 · Pro video editor</b>
+  <b>The free Windows screen recorder where you can speed up the boring parts and slow down the important ones — in the same clip.</b>
+</p>
 
+<p align="center">
+  <i>Screenshot · GIF · MP4 · Pro video editor — all free, no watermark, no signup.</i>
+</p>
+
+<p align="center">
+  <img width="387" height="358" alt="GifCam main window" src="https://github.com/user-attachments/assets/94571d45-10a1-43e6-8c39-e5d717ad05a1" />
+  <img width="545" height="307" alt="GifCam pro video editor" src="https://github.com/user-attachments/assets/cb6377df-8cc7-4070-9e5b-355c05ff0e64" />
 </p>
 
 <p align="center">
@@ -117,9 +125,18 @@ Captured files live in `~/Videos/GifCam` by default.
 - Windows 10 1903+ or Windows 11
 - x64
 
-## Support the project
+## Why is this free?
 
-If GifCam saves you time, consider sending a few dollars:
+I built GifCam because I got tired of ScreenToGif not having per-segment
+speed control and Snagit costing $63. I make tutorials and bug repros
+every week, and the exact tool I wanted didn't exist at any price I was
+willing to pay — so I just shipped one.
+
+It stays free. No watermark, no trial, no "Pro edition coming soon"
+nagware. If it saves you time too, a few bucks keeps me motivated to
+keep pushing updates.
+
+&mdash; Kyoungseok
 
 - **PayPal** — https://paypal.me/KyoungseokKo
 - **Toss Bank** (KRW transfer) — `1001-5567-2524` 고경석
