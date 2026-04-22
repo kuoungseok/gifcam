@@ -16,6 +16,47 @@
 
 ---
 
+## Screenshots
+
+### Main window
+<p align="center">
+  <img src="docs/screenshots/main-window.png" alt="GifCam main window" width="520">
+</p>
+
+Win11 Snipping-Tool–style interface. Pick a mode (Screenshot / GIF / Video),
+hit **New capture**, then drag to select a region. Recent captures are one
+click away, and the **Pro video editor** shortcut lives right under the
+capture options.
+
+### Pro video editor
+<p align="center">
+  <img src="docs/screenshots/video-editor.png" alt="Pro video editor with drawing overlay" width="720">
+</p>
+
+Multi-track timeline with live thumbnails, per-region speed from
+**0.25× to 16×**, cut segments, playhead scrubbing, and one-click MP4
+export. Drawings on the preview render live while you play (see below).
+
+### 🖌 Paint on the preview  *(new in 1.2)*
+<p align="center">
+  <img src="docs/screenshots/paint-dialog.png" alt="Paint dialog" width="720">
+</p>
+
+Click the preview area in the Pro editor and a paint-style dialog opens
+over the current frame. Pen, eraser, clear-all, **8-color palette + custom
+picker**, width and opacity sliders. Strokes render on the preview while
+you play back. Right-click the preview for a quick **Clear all**.
+
+### Subtitles
+<p align="center">
+  <img src="docs/screenshots/subtitle-editor.png" alt="Subtitle editor" width="720">
+</p>
+
+Add time-aligned captions; toggle the background box on (semi-transparent
+pill) or off (outline + drop shadow). Burned into the exported MP4.
+
+---
+
 ## What makes GifCam different
 
 ### ⚡ Fast-motion and slow-motion in the **same** video
@@ -28,6 +69,11 @@ the key steps, all in one clip.
 Stack multiple clips. The top track plays by default; cut regions fall
 through to the track beneath, and short tracks reveal the one under them
 once they end. No timeline gaps.
+
+### 🖌 Paint directly on the preview
+Click the preview in the Pro editor to open a paint-style annotation
+window. Pen, eraser, 8 preset colors + custom picker, width & opacity.
+Strokes stay visible during playback — great for callouts and arrows.
 
 ### ⚙ Windows Graphics Capture backend
 GPU-accelerated capture via the modern WGC API — 60 fps on large regions
@@ -52,28 +98,22 @@ Slack, Notion, KakaoTalk, Discord...), and sends `Ctrl+V` for you.
 - **GIF encoder** with per-frame adaptive palette (+ automatic `gifski` /
   `gifsicle` if installed)
 - **MP4 (H.264)** export with per-segment speed, cuts, and subtitle burn-in
+- **Paint overlays** on the Pro editor preview
 - **Multi-language UI** — 한국어 · English · 日本語 · Deutsch
   (auto-detected from Windows locale, live switchable)
 - **Keyboard shortcuts** — `Ctrl+Shift+N` new capture, `Ctrl+1/2/3` mode
   switch, `Ctrl+O` save folder, `Ctrl+,` settings
-- **Portable or installed** — either run `GifCam.exe` directly or use the
-  installer which registers in *Settings → Apps* for normal Windows
-  uninstall
+- **Installer** that registers in *Settings → Apps* for a normal Windows
+  uninstall experience
 
 ## Install
 
-### Installer (recommended)
-
-1. Download **`GifCam-Setup-1.0.0.exe`** from the
+1. Download **`GifCam-Setup-1.2.0.exe`** from the
    [**Releases** page](https://github.com/kuoungseok/gifcam/releases/latest)
 2. Double-click and follow the wizard — no admin rights required
 3. Installed to `%LOCALAPPDATA%\GifCam`, listed in *Settings → Apps*
 
-### Portable
-
-Download **`GifCam-1.0.0-portable.zip`**, unzip anywhere, run
-`GifCam.exe`. Delete the folder to remove. Captured files live in
-`~/Videos/GifCam` regardless of install method.
+Captured files live in `~/Videos/GifCam` by default.
 
 ## System requirements
 
@@ -85,8 +125,7 @@ Download **`GifCam-1.0.0-portable.zip`**, unzip anywhere, run
 If GifCam saves you time, consider sending a few dollars:
 
 - **PayPal** — https://paypal.me/KyoungseokKo
-- **GitHub Sponsors** — https://github.com/sponsors/kuoungseok
-- **Star this repo ⭐** — biggest motivation, costs nothing
+- **Toss Bank** (KRW transfer) — `1001-5567-2524` 고경석
 
 ## Author
 
