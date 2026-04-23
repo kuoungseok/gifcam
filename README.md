@@ -5,13 +5,11 @@ Scribble and bubble freely on the video. Speed up the boring parts, slow down th
 
 [**▶ Download the latest installer**](https://github.com/kuoungseok/gifcam/releases/latest)
 
-> *Inspired by [ScreenToGif](https://www.screentogif.com/). Built for a different workflow — if you need a quick GIF, ScreenToGif is fantastic. If you need to edit what you recorded, try this.*
-
 ---
 
 ## Why I built this
 
-I write a lot of work reports — bug reports, PR demos, internal docs — and I put GIFs in all of them. ScreenToGif is great for quick GIFs, but I kept wishing I could speed up the setup parts and slow down the important ones, and then annotate the result without switching to a separate tool. I tried ShareX and got lost in the menus. Snagit was $63.
+I write a lot of work reports — bug reports, PR demos, internal docs — and I put GIFs in all of them. I wanted one tool that let me record a region, speed up the setup, slow down the key steps, scribble annotations, and paste the result straight into Jira. No cloud upload, no subscription, no forty-tab menu.
 
 So I built GifCam for myself. It turned out my coworkers wanted it too. Now it's on GitHub. Free, open source, no ads, no account.
 
