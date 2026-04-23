@@ -111,11 +111,27 @@ Not asking for a paycheck — just a signal that this is worth maintaining.
 
 ---
 
-## 🍎 macOS (experimental, unverified)
+## 🍎 macOS (experimental — **not yet tested by the maintainer**)
 
-A macOS port is in progress on the [`main`](https://github.com/kuoungseok/gifcam/tree/main) branch under [`mac/`](https://github.com/kuoungseok/gifcam/tree/main/mac) — ScreenCaptureKit-based capture, PyObjC bindings, ad-hoc signed `.app` + `.dmg` build scripts. Same UI code as the Windows build via a namespace-package overlay.
+An experimental macOS build is now available:
 
-**Not yet verified on real hardware.** Written from Windows against Apple's API docs; first real build is still pending. If you want to be the first to try it, see [`mac/README-mac.md`](https://github.com/kuoungseok/gifcam/blob/main/mac/README-mac.md).
+[**▶ Download GifCam-1.3.0-mac.dmg (prerelease)**](https://github.com/kuoungseok/gifcam/releases/tag/v1.3.0-mac.2)
+
+> ⚠️ **Warning — this build has never been run on a real Mac.** It was
+> authored entirely from Windows against Apple's API docs and built by
+> GitHub Actions. The maintainer has not downloaded, installed, or
+> launched the resulting `.app` on macOS even once. If it crashes, fails
+> to open, or misbehaves, please [open an issue](https://github.com/kuoungseok/gifcam/issues)
+> with the exact error — fixes land in new prerelease tags as they're
+> diagnosed.
+
+- **Requires** macOS 12.3 Monterey or newer · Apple Silicon (arm64) only
+- **First launch**: right-click `GifCam.app` → **Open** (ad-hoc signed,
+  so Gatekeeper blocks a plain double-click the first time)
+- **Screen Recording permission** must be granted on first capture,
+  then quit & relaunch
+
+Source and build internals: [`mac/`](https://github.com/kuoungseok/gifcam/tree/main/mac) · [`mac/README-mac.md`](https://github.com/kuoungseok/gifcam/blob/main/mac/README-mac.md).
 
 ---
 
