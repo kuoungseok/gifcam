@@ -111,6 +111,14 @@ Not asking for a paycheck — just a signal that this is worth maintaining.
 
 ---
 
+## 🍎 macOS (experimental, unverified)
+
+A macOS port is in progress on the [`main`](https://github.com/kuoungseok/gifcam/tree/main) branch under [`mac/`](https://github.com/kuoungseok/gifcam/tree/main/mac) — ScreenCaptureKit-based capture, PyObjC bindings, ad-hoc signed `.app` + `.dmg` build scripts. Same UI code as the Windows build via a namespace-package overlay.
+
+**Not yet verified on real hardware.** Written from Windows against Apple's API docs; first real build is still pending. If you want to be the first to try it, see [`mac/README-mac.md`](https://github.com/kuoungseok/gifcam/blob/main/mac/README-mac.md).
+
+---
+
 ## Author
 
 **KyoungSeok Ko** ([@kuoungseok](https://github.com/kuoungseok))
