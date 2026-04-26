@@ -37,6 +37,34 @@ Select any range on the timeline and dial it from **0.25× up to 16× speed**. A
 
 Grab the **Fade** card and drop it on the track — the width of the placed actor is its duration. Drag the edges to resize. Right-click to toggle **Fade In / Fade Out / In + Out**. Preview shows the effect live.
 
+### 🅣 Kinetic typography you'd actually use in an MV
+
+Drop the **T** card on a track and double-click to open a 3-pane editor with **80+ kinetic animations** across Basic / Kinetic / Folding / HOLD categories — slide-ins, folds, glitches, paper-folds, a multi-layer Eve glitch with RGB split, and HOLD-phase loops that breathe, sway, shimmer.
+
+Each clip has three slots — **IN / HOLD / OUT** — and every slot accepts a primary animation **plus a list of "modifier" extras that stack on top**. Offsets add, rotations add, scale and opacity multiply. The practical combination count is in the millions.
+
+![Typography editor](docs/screenshots/typography-editor.png)
+
+### 🎨 DaVinci-style 3-wheel color grading
+
+Real chromaticity wheels for **Shadows / Midtones / Highlights** with luma-aware tonal masks — push shadows cool and highlights warm for the teal-and-orange MV look in two drags. Brightness / Contrast / Saturation are bipolar **knobs** that match the sound editor's UI vocabulary, so the whole editor reads as one consistent surface.
+
+Eight curated presets (Cinematic, Vintage, Cool, Warm, Faded, B&W, Punch, Mute) for one-click looks. Applies in real-time on preview via numpy and ships to the exported file via FFmpeg `eq` + `colorbalance`.
+
+### 🎚 Sound editor with AI mastering + dynamics
+
+A full sound editor lives behind the **Open Sound Editor** button — **Basic / EQ / Dynamics / Effects / Advanced / AI Master** tabs.
+
+The **AI Master** tab is for cleaning up the MP3-style artifacts in AI-generated music (Suno v3 / v4, Udio, ACE-Step) — one-click presets per model, plus 6-knob **Detailed Mastering** (Air, Clarity, Warmth, Width, Punch, Excite).
+
+![Sound editor — AI Master](docs/screenshots/sound-editor-ai-master.png)
+
+The **Dynamics** tab gives you a real Compressor (Threshold / Ratio / Attack / Release / Makeup / Knee with Voice Gentle / Voice Strong / Podcast presets) and a Noise Gate. All knobs match the rest of the editor.
+
+![Sound editor — Dynamics](docs/screenshots/sound-editor-dynamics.png)
+
+Audio export covers MP3, WAV, FLAC, ALAC, AAC, OGG with four quality presets (Low / Standard / High / Studio — sample rate & bit depth bumps).
+
 ### 🖱 One-click paste to Jira / Confluence / Slack
 
 Record, then press **Quick paste**. GifCam copies the file to the clipboard, refocuses the window you were editing, and sends `Ctrl+V` for you. No upload. No cloud. Just a file.
@@ -49,15 +77,16 @@ GPU-accelerated capture via the WGC API — 60 fps on large regions without the 
 
 ## At a glance
 
-| | GifCam 1.3 |
+| | GifCam |
 |---|---|
 | **Price** | Free, MIT license |
 | **Modes** | Screenshot / GIF / MP4 video |
 | **Theme** | Full dark mode (5-level palette) |
-| **Editor** | Multi-track timeline, per-segment speed, paint, speech bubbles, fades, subtitles |
-| **Export** | GIF (adaptive palette, optional gifski/gifsicle), MP4 (H.264) |
-| **Zoom** | Mouse-wheel on timelines (video + GIF) |
-| **Languages** | 한국어 · English · 日本語 · Deutsch |
+| **Pro video editor** | Multi-track timeline, per-segment speed (0.25×–16×), paint + speech bubbles + stickers, fades, subtitles, **kinetic typography** (80+ animations + composition), **3-wheel color grading** |
+| **Sound editor** | Basic · EQ · Dynamics · Effects · Advanced · **AI Master** (Suno / Udio / ACE-Step one-click fix + 6-knob mastering) |
+| **Video export** | MP4 (H.264) · WebM (VP9) · MOV — Low / Standard / High / Best quality presets |
+| **Audio export** | MP3 · WAV · FLAC · ALAC · AAC · OGG — Low / Standard / High / Studio quality presets |
+| **Languages** | 한국어 · English · 日本語 · 中文 · Français · Deutsch |
 | **Cloud upload** | None — everything stays on your machine |
 | **Shortcuts** | `Ctrl+Shift+N` new capture, `Ctrl+1/2/3` mode switch |
 
@@ -104,6 +133,7 @@ Not asking for a paycheck — just a signal that this is worth maintaining.
 
 ## Changelog highlights
 
+- **1.4** — Kinetic typography editor (80+ animations + IN/HOLD/OUT composition); DaVinci-style 3-wheel color grading + 8 presets; full sound editor with EQ / Dynamics / Effects / Advanced / **AI Master** tabs; multi-format export (MP4 / WebM / MOV); audio export covers MP3 / WAV / FLAC / ALAC / AAC / OGG with quality presets; two new locales (中文 · Français)
 - **1.3** — Full dark theme; speech bubbles; drag-drop fade transitions; mouse-wheel timeline zoom; sub-monitor capture fix; safer overwrite export
 - **1.2** — Paint-on-preview with live playback rendering
 - **1.1** — Multi-track timeline, per-region speed (0.25×–16×)
