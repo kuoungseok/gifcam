@@ -1,0 +1,9 @@
+# Exclude everything from auto-generated source archives
+# (GitHub Release "Source code (zip/tar.gz)" downloads).
+#
+# This branch only contains README + screenshots + LICENSE — none of
+# which are meant for redistribution as a "source download". Marking
+# them export-ignore makes the auto-generated archive empty, even
+# though GitHub forces the link to appear on every release page.
+*                       export-ignore
+.gitattributes          export-ignore
