@@ -1,9 +1,9 @@
-# GifCam
+# Bitdam
 
 **A Windows screen recorder for people who edit what they record.**
 Scribble and bubble freely on the video. Speed up the boring parts, slow down the important ones. Drop fades between cuts. Paste it straight into Jira or Confluence.
 
-[**▶ Download the latest installer**](https://github.com/kuoungseok/gifcam/releases/latest)
+[**▶ Download the latest installer**](https://github.com/kuoungseok/bitdam/releases/latest)
 
 ---
 
@@ -11,13 +11,13 @@ Scribble and bubble freely on the video. Speed up the boring parts, slow down th
 
 I write a lot of work reports — bug reports, PR demos, internal docs — and I put GIFs in all of them. I wanted one tool that let me record a region, speed up the setup, slow down the key steps, scribble annotations, and paste the result straight into Jira. No cloud upload, no subscription, no forty-tab menu.
 
-So I built GifCam for myself. It turned out my coworkers wanted it too. Now it's on GitHub. Free, open source, no ads, no account.
+So I built Bitdam for myself. It turned out my coworkers wanted it too. Now it's on GitHub. Free, open source, no ads, no account.
 
 **— KyoungSeok Ko**
 
 ---
 
-## What makes GifCam different
+## What makes Bitdam different
 
 ### 🖌 Scribble and bubble on the video
 
@@ -67,7 +67,7 @@ Audio export covers MP3, WAV, FLAC, ALAC, AAC, OGG with four quality presets (Lo
 
 ### 🖱 One-click paste to Jira / Confluence / Slack
 
-Record, then press **Quick paste**. GifCam copies the file to the clipboard, refocuses the window you were editing, and sends `Ctrl+V` for you. No upload. No cloud. Just a file.
+Record, then press **Quick paste**. Bitdam copies the file to the clipboard, refocuses the window you were editing, and sends `Ctrl+V` for you. No upload. No cloud. Just a file.
 
 ### ⚙ Modern Windows Graphics Capture backend
 
@@ -77,7 +77,7 @@ GPU-accelerated capture via the WGC API — 60 fps on large regions without the 
 
 ## At a glance
 
-| | GifCam |
+| | Bitdam |
 |---|---|
 | **Price** | Free, MIT license |
 | **Modes** | Screenshot / GIF / MP4 video |
@@ -96,7 +96,7 @@ GPU-accelerated capture via the WGC API — 60 fps on large regions without the 
 
 ### Main window
 
-![GifCam main window](docs/screenshots/main-window.png)
+![Bitdam main window](docs/screenshots/main-window.png)
 
 Windows 11 Snipping Tool–style interface in a full dark theme. Pick a mode, hit **New capture**, drag to select. The violet **Open pro video editor** button is a one-click entry to the multi-track editor.
 
@@ -110,11 +110,11 @@ Time-aligned captions with an optional background box. Burned into the exported 
 
 ## Install
 
-1. Download **`GifCam-Setup-1.3.0.exe`** from the [**Releases** page](https://github.com/kuoungseok/gifcam/releases/latest)
+1. Download **`Bitdam-Setup-1.3.0.exe`** from the [**Releases** page](https://github.com/kuoungseok/bitdam/releases/latest)
 2. Double-click and follow the wizard — no admin rights required
-3. Installed to `%LOCALAPPDATA%\GifCam`, listed in *Settings → Apps*
+3. Installed to `%LOCALAPPDATA%\Bitdam`, listed in *Settings → Apps*
 
-Captured files live in `~/Videos/GifCam` by default.
+Captured files live in `~/Videos/Bitdam` by default.
 
 **System requirements:** Windows 10 1903+ or Windows 11, x64.
 
@@ -122,7 +122,7 @@ Captured files live in `~/Videos/GifCam` by default.
 
 ## Support the project
 
-I maintain GifCam in my spare time. If it saves you time at work, a coffee's worth keeps me shipping updates.
+I maintain Bitdam in my spare time. If it saves you time at work, a coffee's worth keeps me shipping updates.
 
 - ☕ **PayPal** — <https://paypal.me/KyoungseokKo>
 - 🏦 **Toss Bank** (KRW) — `1001-5567-2524` 고경석
@@ -145,23 +145,23 @@ Not asking for a paycheck — just a signal that this is worth maintaining.
 
 An experimental macOS build is now available:
 
-[**▶ Download GifCam-1.3.0-mac.dmg (prerelease)**](https://github.com/kuoungseok/gifcam/releases/tag/v1.3.0-mac.2)
+[**▶ Download Bitdam-1.3.0-mac.dmg (prerelease)**](https://github.com/kuoungseok/bitdam/releases/tag/v1.3.0-mac.2)
 
 > ⚠️ **Warning — this build has never been run on a real Mac.** It was
 > authored entirely from Windows against Apple's API docs and built by
 > GitHub Actions. The maintainer has not downloaded, installed, or
 > launched the resulting `.app` on macOS even once. If it crashes, fails
-> to open, or misbehaves, please [open an issue](https://github.com/kuoungseok/gifcam/issues)
+> to open, or misbehaves, please [open an issue](https://github.com/kuoungseok/bitdam/issues)
 > with the exact error — fixes land in new prerelease tags as they're
 > diagnosed.
 
 - **Requires** macOS 12.3 Monterey or newer · Apple Silicon (arm64) only
-- **First launch**: right-click `GifCam.app` → **Open** (ad-hoc signed,
+- **First launch**: right-click `Bitdam.app` → **Open** (ad-hoc signed,
   so Gatekeeper blocks a plain double-click the first time)
 - **Screen Recording permission** must be granted on first capture,
   then quit & relaunch
 
-Source and build internals: [`mac/`](https://github.com/kuoungseok/gifcam/tree/main/mac) · [`mac/README-mac.md`](https://github.com/kuoungseok/gifcam/blob/main/mac/README-mac.md).
+Source and build internals: [`mac/`](https://github.com/kuoungseok/bitdam/tree/main/mac) · [`mac/README-mac.md`](https://github.com/kuoungseok/bitdam/blob/main/mac/README-mac.md).
 
 ---
 
